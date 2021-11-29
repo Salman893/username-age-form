@@ -1,0 +1,39 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0 ,0 ,0 , 0.75);
+}
+
+
+.modal {
+    position: fixed;
+    top: 30vh;
+    left: 30%;
+    width: 40%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.header {
+    background: #4f005f;
+    padding: 0.25rem;
+}
+
+.header h2 {
+    color: white;
+    padding: 0 1rem;
+}
+
+.content {
+    padding: 1rem;
+}
